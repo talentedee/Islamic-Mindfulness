@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332C0C182A254EAA004256E2 /* Islamic_MindfulnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C172A254EAA004256E2 /* Islamic_MindfulnessApp.swift */; };
+		332C0C1A2A254EAA004256E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C192A254EAA004256E2 /* ContentView.swift */; };
+		332C0C1C2A254EAC004256E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332C0C1B2A254EAC004256E2 /* Assets.xcassets */; };
+		332C0C1F2A254EAC004256E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332C0C1E2A254EAC004256E2 /* Preview Assets.xcassets */; };
+		332C0C292A254EAC004256E2 /* Islamic_MindfulnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C282A254EAC004256E2 /* Islamic_MindfulnessTests.swift */; };
+		332C0C332A254EAC004256E2 /* Islamic_MindfulnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C322A254EAC004256E2 /* Islamic_MindfulnessUITests.swift */; };
+		332C0C352A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C342A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		332C0C252A254EAC004256E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332C0C0C2A254EAA004256E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332C0C132A254EAA004256E2;
+			remoteInfo = "Islamic Mindfulness";
+		};
+		332C0C2F2A254EAC004256E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332C0C0C2A254EAA004256E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332C0C132A254EAA004256E2;
+			remoteInfo = "Islamic Mindfulness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		332C0C142A254EAA004256E2 /* Islamic Mindfulness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Islamic Mindfulness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		332C0C172A254EAA004256E2 /* Islamic_MindfulnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_MindfulnessApp.swift; sourceTree = "<group>"; };
+		332C0C192A254EAA004256E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		332C0C1B2A254EAC004256E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		332C0C1E2A254EAC004256E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		332C0C242A254EAC004256E2 /* Islamic MindfulnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islamic MindfulnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		332C0C282A254EAC004256E2 /* Islamic_MindfulnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_MindfulnessTests.swift; sourceTree = "<group>"; };
+		332C0C2E2A254EAC004256E2 /* Islamic MindfulnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islamic MindfulnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		332C0C322A254EAC004256E2 /* Islamic_MindfulnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_MindfulnessUITests.swift; sourceTree = "<group>"; };
+		332C0C342A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_MindfulnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		332C0C112A254EAA004256E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332C0C212A254EAC004256E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332C0C2B2A254EAC004256E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332C0C0B2A254EAA004256E2 = {
+			isa = PBXGroup;
+			children = (
+				332C0C162A254EAA004256E2 /* Islamic Mindfulness */,
+				332C0C272A254EAC004256E2 /* Islamic MindfulnessTests */,
+				332C0C312A254EAC004256E2 /* Islamic MindfulnessUITests */,
+				332C0C152A254EAA004256E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		332C0C152A254EAA004256E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				332C0C142A254EAA004256E2 /* Islamic Mindfulness.app */,
+				332C0C242A254EAC004256E2 /* Islamic MindfulnessTests.xctest */,
+				332C0C2E2A254EAC004256E2 /* Islamic MindfulnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		332C0C162A254EAA004256E2 /* Islamic Mindfulness */ = {
+			isa = PBXGroup;
+			children = (
+				332C0C172A254EAA004256E2 /* Islamic_MindfulnessApp.swift */,
+				332C0C192A254EAA004256E2 /* ContentView.swift */,
+				332C0C1B2A254EAC004256E2 /* Assets.xcassets */,
+				332C0C1D2A254EAC004256E2 /* Preview Content */,
+			);
+			path = "Islamic Mindfulness";
+			sourceTree = "<group>";
+		};
+		332C0C1D2A254EAC004256E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				332C0C1E2A254EAC004256E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		332C0C272A254EAC004256E2 /* Islamic MindfulnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				332C0C282A254EAC004256E2 /* Islamic_MindfulnessTests.swift */,
+			);
+			path = "Islamic MindfulnessTests";
+			sourceTree = "<group>";
+		};
+		332C0C312A254EAC004256E2 /* Islamic MindfulnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				332C0C322A254EAC004256E2 /* Islamic_MindfulnessUITests.swift */,
+				332C0C342A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift */,
+			);
+			path = "Islamic MindfulnessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		332C0C132A254EAA004256E2 /* Islamic Mindfulness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332C0C382A254EAC004256E2 /* Build configuration list for PBXNativeTarget "Islamic Mindfulness" */;
+			buildPhases = (
+				332C0C102A254EAA004256E2 /* Sources */,
+				332C0C112A254EAA004256E2 /* Frameworks */,
+				332C0C122A254EAA004256E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Islamic Mindfulness";
+			productName = "Islamic Mindfulness";
+			productReference = 332C0C142A254EAA004256E2 /* Islamic Mindfulness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		332C0C232A254EAC004256E2 /* Islamic MindfulnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332C0C3B2A254EAC004256E2 /* Build configuration list for PBXNativeTarget "Islamic MindfulnessTests" */;
+			buildPhases = (
+				332C0C202A254EAC004256E2 /* Sources */,
+				332C0C212A254EAC004256E2 /* Frameworks */,
+				332C0C222A254EAC004256E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332C0C262A254EAC004256E2 /* PBXTargetDependency */,
+			);
+			name = "Islamic MindfulnessTests";
+			productName = "Islamic MindfulnessTests";
+			productReference = 332C0C242A254EAC004256E2 /* Islamic MindfulnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		332C0C2D2A254EAC004256E2 /* Islamic MindfulnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332C0C3E2A254EAC004256E2 /* Build configuration list for PBXNativeTarget "Islamic MindfulnessUITests" */;
+			buildPhases = (
+				332C0C2A2A254EAC004256E2 /* Sources */,
+				332C0C2B2A254EAC004256E2 /* Frameworks */,
+				332C0C2C2A254EAC004256E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332C0C302A254EAC004256E2 /* PBXTargetDependency */,
+			);
+			name = "Islamic MindfulnessUITests";
+			productName = "Islamic MindfulnessUITests";
+			productReference = 332C0C2E2A254EAC004256E2 /* Islamic MindfulnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		332C0C0C2A254EAA004256E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					332C0C132A254EAA004256E2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					332C0C232A254EAC004256E2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 332C0C132A254EAA004256E2;
+					};
+					332C0C2D2A254EAC004256E2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 332C0C132A254EAA004256E2;
+					};
+				};
+			};
+			buildConfigurationList = 332C0C0F2A254EAA004256E2 /* Build configuration list for PBXProject "Islamic Mindfulness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 332C0C0B2A254EAA004256E2;
+			productRefGroup = 332C0C152A254EAA004256E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				332C0C132A254EAA004256E2 /* Islamic Mindfulness */,
+				332C0C232A254EAC004256E2 /* Islamic MindfulnessTests */,
+				332C0C2D2A254EAC004256E2 /* Islamic MindfulnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332C0C122A254EAA004256E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332C0C1F2A254EAC004256E2 /* Preview Assets.xcassets in Resources */,
+				332C0C1C2A254EAC004256E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332C0C222A254EAC004256E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332C0C2C2A254EAC004256E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		332C0C102A254EAA004256E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332C0C1A2A254EAA004256E2 /* ContentView.swift in Sources */,
+				332C0C182A254EAA004256E2 /* Islamic_MindfulnessApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332C0C202A254EAC004256E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332C0C292A254EAC004256E2 /* Islamic_MindfulnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332C0C2A2A254EAC004256E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332C0C352A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift in Sources */,
+				332C0C332A254EAC004256E2 /* Islamic_MindfulnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		332C0C262A254EAC004256E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332C0C132A254EAA004256E2 /* Islamic Mindfulness */;
+			targetProxy = 332C0C252A254EAC004256E2 /* PBXContainerItemProxy */;
+		};
+		332C0C302A254EAC004256E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332C0C132A254EAA004256E2 /* Islamic Mindfulness */;
+			targetProxy = 332C0C2F2A254EAC004256E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		332C0C362A254EAC004256E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		332C0C372A254EAC004256E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		332C0C392A254EAC004256E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Islamic Mindfulness/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamadHassan.Islamic-Mindfulness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		332C0C3A2A254EAC004256E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Islamic Mindfulness/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamadHassan.Islamic-Mindfulness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		332C0C3C2A254EAC004256E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamadHassan.Islamic-MindfulnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islamic Mindfulness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Islamic Mindfulness";
+			};
+			name = Debug;
+		};
+		332C0C3D2A254EAC004256E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamadHassan.Islamic-MindfulnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islamic Mindfulness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Islamic Mindfulness";
+			};
+			name = Release;
+		};
+		332C0C3F2A254EAC004256E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamadHassan.Islamic-MindfulnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Islamic Mindfulness";
+			};
+			name = Debug;
+		};
+		332C0C402A254EAC004256E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MohamadHassan.Islamic-MindfulnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Islamic Mindfulness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		332C0C0F2A254EAA004256E2 /* Build configuration list for PBXProject "Islamic Mindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332C0C362A254EAC004256E2 /* Debug */,
+				332C0C372A254EAC004256E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332C0C382A254EAC004256E2 /* Build configuration list for PBXNativeTarget "Islamic Mindfulness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332C0C392A254EAC004256E2 /* Debug */,
+				332C0C3A2A254EAC004256E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332C0C3B2A254EAC004256E2 /* Build configuration list for PBXNativeTarget "Islamic MindfulnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332C0C3C2A254EAC004256E2 /* Debug */,
+				332C0C3D2A254EAC004256E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332C0C3E2A254EAC004256E2 /* Build configuration list for PBXNativeTarget "Islamic MindfulnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332C0C3F2A254EAC004256E2 /* Debug */,
+				332C0C402A254EAC004256E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 332C0C0C2A254EAA004256E2 /* Project object */;
+}
