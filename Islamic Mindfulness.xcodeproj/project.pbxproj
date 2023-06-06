@@ -14,6 +14,10 @@
 		332C0C292A254EAC004256E2 /* Islamic_MindfulnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C282A254EAC004256E2 /* Islamic_MindfulnessTests.swift */; };
 		332C0C332A254EAC004256E2 /* Islamic_MindfulnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C322A254EAC004256E2 /* Islamic_MindfulnessUITests.swift */; };
 		332C0C352A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C0C342A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift */; };
+		3356F3172A25761000AB9509 /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356F3162A25761000AB9509 /* QuranView.swift */; };
+		3356F3192A258E1200AB9509 /* QuranFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356F3182A258E1200AB9509 /* QuranFunctions.swift */; };
+		3356F31B2A258E9800AB9509 /* QuranURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356F31A2A258E9800AB9509 /* QuranURLs.swift */; };
+		3356F31D2A25AC9400AB9509 /* QuranData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356F31C2A25AC9300AB9509 /* QuranData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		332C0C2E2A254EAC004256E2 /* Islamic MindfulnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islamic MindfulnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		332C0C322A254EAC004256E2 /* Islamic_MindfulnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_MindfulnessUITests.swift; sourceTree = "<group>"; };
 		332C0C342A254EAC004256E2 /* Islamic_MindfulnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_MindfulnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3356F3162A25761000AB9509 /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
+		3356F3182A258E1200AB9509 /* QuranFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranFunctions.swift; sourceTree = "<group>"; };
+		3356F31A2A258E9800AB9509 /* QuranURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranURLs.swift; sourceTree = "<group>"; };
+		3356F31C2A25AC9300AB9509 /* QuranData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranData.swift; sourceTree = "<group>"; };
+		3356F31E2A29826E00AB9509 /* Islamic-Mindfulness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Islamic-Mindfulness-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +103,15 @@
 		332C0C162A254EAA004256E2 /* Islamic Mindfulness */ = {
 			isa = PBXGroup;
 			children = (
+				3356F31E2A29826E00AB9509 /* Islamic-Mindfulness-Info.plist */,
 				332C0C172A254EAA004256E2 /* Islamic_MindfulnessApp.swift */,
 				332C0C192A254EAA004256E2 /* ContentView.swift */,
 				332C0C1B2A254EAC004256E2 /* Assets.xcassets */,
 				332C0C1D2A254EAC004256E2 /* Preview Content */,
+				3356F3162A25761000AB9509 /* QuranView.swift */,
+				3356F3182A258E1200AB9509 /* QuranFunctions.swift */,
+				3356F31A2A258E9800AB9509 /* QuranURLs.swift */,
+				3356F31C2A25AC9300AB9509 /* QuranData.swift */,
 			);
 			path = "Islamic Mindfulness";
 			sourceTree = "<group>";
@@ -257,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3356F31B2A258E9800AB9509 /* QuranURLs.swift in Sources */,
 				332C0C1A2A254EAA004256E2 /* ContentView.swift in Sources */,
 				332C0C182A254EAA004256E2 /* Islamic_MindfulnessApp.swift in Sources */,
+				3356F31D2A25AC9400AB9509 /* QuranData.swift in Sources */,
+				3356F3172A25761000AB9509 /* QuranView.swift in Sources */,
+				3356F3192A258E1200AB9509 /* QuranFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +435,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Islamic Mindfulness/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KWC7A9KZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Islamic-Mindfulness-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +465,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Islamic Mindfulness/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KWC7A9KZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Islamic-Mindfulness-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

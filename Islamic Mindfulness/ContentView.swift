@@ -1,21 +1,39 @@
-//
-//  ContentView.swift
-//  Islamic Mindfulness
-//
-//  Created by Mohamad Hassan on 5/29/23.
-//
-
 import SwiftUI
+//ContentView
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            //Text("Home")
+            //    .tabItem {
+            //        Image(systemName: "house")
+            //        Text("Home")
+            //    }
+            
+            //Text("Nature")
+            //    .tabItem {
+            //        Image(systemName: "leaf")
+            //        Text("Nature")
+            //    }
+            
+            //Text("Dhikr")
+            //    .tabItem {
+            //        Image(systemName: "heart")
+            //        Text("Dhikr")
+            //    }
+            
+            QuranView()
+                .tabItem {
+                    Image(systemName: "book")
+                    Text("Quran")
+                }
+            
+            //Text("Profile")
+            //    .tabItem {
+            //        Image(systemName: "person")
+            //        Text("Profile")
+            //    }
         }
-        .padding()
     }
 }
 
